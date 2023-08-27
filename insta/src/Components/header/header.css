@@ -1,0 +1,29 @@
+.app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.app_headerImage {
+  object-fit: contain;
+}
+.custom-button {
+  border: none; /* Remove the border */
+  background-color: transparent; /* Set the background color to transparent */
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove the default link underline */
+  cursor: pointer; /* Add a pointer cursor for interactive elements */
+}
+.app_logon {
+  display: flex;
+  justify-content: space-between;
+}
+.spacer {
+  display: inline-block;
+  width: 20px;
+}
